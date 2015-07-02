@@ -1,0 +1,5 @@
+alias sccsdiffsall='checked_out . | sort -r | xargs -n 1 tkdiff -b -r'
+alias makeclientbuild='make build BUILDTYPE=debug GET=true'
+alias makeclient='make test BUILDTYPE=debug GET=true'
+alias makedebug='make BUILDTYPE=debug DEBUG=yes SSLDEBUG=yes release'
+alias makerelease='make BUILDTYPE=release DEBUG=no release'
