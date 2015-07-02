@@ -1,3 +1,10 @@
 alias d110='ssh dev110.meraki.com'
 alias sdg0='ssh sdg0.meraki.com'
 alias dal0='ssh dal0.meraki.com'
+
+# git aliases
+alias gd='git diff -r git-svn..HEAD'
+alias gdn='git diff -r git-svn..HEAD --name-only'
+alias gsr='git svn rebase'
+alias gri='git rebase -i git-svn..HEAD'
+alias glog='git log --reverse --abbrev-commit --pretty=oneline git-svn..HEAD'
