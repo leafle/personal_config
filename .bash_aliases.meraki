@@ -1,0 +1,3 @@
+alias d110='ssh dev110.meraki.com'
+alias sdg0='ssh sdg0.meraki.com'
+alias dal0='ssh dal0.meraki.com'
