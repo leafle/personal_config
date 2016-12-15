@@ -16,3 +16,6 @@ cp conf_files/.tmux.conf ~/
 cp conf_files/.vimrc ~/
 
 source ~/.bash_profile
+
+echo "install homebrew"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
