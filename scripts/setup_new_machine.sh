@@ -14,6 +14,7 @@ cd personal_config
 cp conf_files/bash/.bash* ~/
 cp conf_files/.tmux.conf ~/
 cp conf_files/.vimrc ~/
+cp conf_files/.ssh/config ~/.ssh/config
 
 source ~/.bash_profile
 
